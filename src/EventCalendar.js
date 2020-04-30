@@ -17,7 +17,6 @@ export default class EventCalendar extends React.Component {
     super(props);
     const start = props.start ? props.start : 0;
     const end = props.end ? props.end : 24;
-
     this.styles = styleConstructor(props.styles, (end - start) * 55);
     this.state = {
       date: moment(this.props.initDate),
@@ -126,7 +125,7 @@ export default class EventCalendar extends React.Component {
   }
 
   _goToPage(index) {
-    if (index <= 0 || index >= this.props.size) {
+    if (index < 0 || index >= this.props.size) {
       return;
     }
     const date = moment(this.props.initDate).add(index,'days');

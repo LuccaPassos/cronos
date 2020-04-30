@@ -16,7 +16,6 @@ const styles = StyleSheet.create({
 async function organizeEventParts() {
   const response = await api.get('/api/event/');
   var events = { eventParts: [] };
-  
   response.data.events.forEach(function (ev) {
     if (ev.eventPart.length !== 0) {
       ev.eventPart.forEach(function (evp){
@@ -31,7 +30,7 @@ async function organizeEventParts() {
   return events;
 }
 
-export default function App(props) {
+export default function App() {
   const [loading, setLoading] = useState(false);
   const [events, setEvents] = useState({});
 
@@ -62,7 +61,7 @@ export default function App(props) {
           width={width}
           initDate={'2020-03-23'}
           scrollToFirst
-          size={5} //How many days including first one
+          size={5}
           start={7}
           end={19}
         />
