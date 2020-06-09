@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
 });
 
 async function organizeEventParts() {
-  const response = await api.get('/api/event/');
+  const response = await api.get('/events');
   var events = { eventParts: [] };
   response.data.events.forEach(function (ev) {
     if (ev.eventPart.length !== 0) {

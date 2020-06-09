@@ -1,127 +1,131 @@
 {
-    "events": [
+    "allEvents": [
       {
-        "eventPart": [
+        "events": [
           {
-            "duration": 4,
-            "date": "2020-05-25T07:00:00.000Z",
-            "local": "LabGrad1",
+            "eventPart": [
+              {
+                "duration": 4,
+                "date": "2020-05-25T07:00:00.000Z",
+                "local": "LabGrad1",
+                "__v": 0
+              },
+              {
+                "duration": 2,
+                "date": "2020-05-26T10:00:00.000Z",
+                "local": "LabGrad2",
+                "__v": 0
+              }
+            ],
+            "_id": "5ec812c8f41529025bb5428e",
+            "title": "Lorem Ipsum",
+            "type": "Minicurso prático",
             "__v": 0
           },
           {
-            "duration": 2,
-            "date": "2020-05-26T10:00:00.000Z",
-            "local": "LabGrad2",
-            "__v": 0
-          }
-        ],
-        "_id": "5ec812c8f41529025bb5428e",
-        "title": "Lorem Ipsum",
-        "type": "Minicurso prático",
-        "__v": 0
-      },
-      {
-        "eventPart": [
-          {
-            "duration": 3,
-            "date": "2020-05-26T08:00:00.000Z",
-            "local": "LCEE",
-            "__v": 0
-          },
-          {
-            "duration": 2,
-            "date": "2020-05-27T14:00:00.000Z",
-            "local": "LabZorro",
-            "__v": 0
-          }
-        ],
-        "_id": "5ec81319f41529025bb54292",
-        "title": "Mussum Ipsum",
-        "type": "Aula teórica",
-        "__v": 0
-      },
-      {
-        "eventPart": [
-          {
-            "duration": 3,
-            "date": "2020-05-28T10:00:00.000Z",
-            "local": "Auditorio",
-            "__v": 0
-          }
-        ],
-        "_id": "5ec81358f41529025bb54296",
-        "title": "Bacon Ipsum",
-        "type": "Palestra",
-        "__v": 0
-      },
-      {
-        "eventPart": [
-          {
-            "duration": 3,
-            "date": "2020-05-25T14:00:00.000Z",
-            "local": "LabZorro",
+            "eventPart": [
+              {
+                "duration": 3,
+                "date": "2020-05-26T08:00:00.000Z",
+                "local": "LCEE",
+                "__v": 0
+              },
+              {
+                "duration": 2,
+                "date": "2020-05-27T14:00:00.000Z",
+                "local": "LabZorro",
+                "__v": 0
+              }
+            ],
+            "_id": "5ec81319f41529025bb54292",
+            "title": "Mussum Ipsum",
+            "type": "Aula teórica",
             "__v": 0
           },
           {
-            "duration": 2,
-            "date": "2020-05-28T13:00:00.000Z",
-            "local": "LabGrad2",
+            "eventPart": [
+              {
+                "duration": 3,
+                "date": "2020-05-28T10:00:00.000Z",
+                "local": "Auditorio",
+                "__v": 0
+              }
+            ],
+            "_id": "5ec81358f41529025bb54296",
+            "title": "Bacon Ipsum",
+            "type": "Palestra",
             "__v": 0
           },
           {
-            "duration": 2,
-            "date": "2020-05-29T10:00:00.000Z",
-            "local": "LabGrad1",
+            "eventPart": [
+              {
+                "duration": 3,
+                "date": "2020-05-25T14:00:00.000Z",
+                "local": "LabZorro",
+                "__v": 0
+              },
+              {
+                "duration": 2,
+                "date": "2020-05-28T13:00:00.000Z",
+                "local": "LabGrad2",
+                "__v": 0
+              },
+              {
+                "duration": 2,
+                "date": "2020-05-29T10:00:00.000Z",
+                "local": "LabGrad1",
+                "__v": 0
+              }
+            ],
+            "_id": "5ec8140af41529025bb54299",
+            "title": "Compadre Ipsum",
+            "type": "Minicurso prático",
             "__v": 0
-          }
-        ],
-        "_id": "5ec8140af41529025bb54299",
-        "title": "Compadre Ipsum",
-        "type": "Minicurso prático",
-        "__v": 0
-      },
-      {
-        "eventPart": [
+          },
           {
-            "duration": 2,
-            "date": "2020-05-27T07:00:00.000Z",
-            "local": "LabGrad2",
+            "eventPart": [
+              {
+                "duration": 2,
+                "date": "2020-05-27T07:00:00.000Z",
+                "local": "LabGrad2",
+                "__v": 0
+              }
+            ],
+            "_id": "5ec815f2a3c28102680d29f1",
+            "title": "Pokemon Ipsum",
+            "type": "Minicurso prático",
             "__v": 0
-          }
-        ],
-        "_id": "5ec815f2a3c28102680d29f1",
-        "title": "Pokemon Ipsum",
-        "type": "Minicurso prático",
-        "__v": 0
-      },
-      {
-        "eventPart": [
+          },
           {
-            "duration": 2,
-            "date": "2020-05-29T10:00:00.000Z",
-            "local": "LabGrad1",
+            "eventPart": [
+              {
+                "duration": 2,
+                "date": "2020-05-29T10:00:00.000Z",
+                "local": "LabGrad1",
+                "__v": 0
+              }
+            ],
+            "_id": "5ed06cd796b790002414baf8",
+            "title": "jaksdkjasdjkankjd",
+            "type": "Aula teórica",
             "__v": 0
-          }
-        ],
-        "_id": "5ed06cd796b790002414baf8",
-        "title": "jaksdkjasdjkankjd",
-        "type": "Aula teórica",
-        "__v": 0
-      },
-      {
-        "eventPart": [
+          },
           {
-            "duration": 1,
-            "date": "2020-02-05T09:00:00.000Z",
-            "local": "LabZorro",
+            "eventPart": [
+              {
+                "duration": 1,
+                "date": "2020-02-05T09:00:00.000Z",
+                "local": "LabZorro",
+                "__v": 0
+              }
+            ],
+            "_id": "5ed544cbf0b8050024cc0d47",
+            "title": "Python",
+            "material": null,
+            "type": "Minicurso prático",
             "__v": 0
           }
-        ],
-        "_id": "5ed544cbf0b8050024cc0d47",
-        "title": "Python",
-        "material": null,
-        "type": "Minicurso prático",
-        "__v": 0
+        ]
       }
     ]
   }
