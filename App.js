@@ -59,7 +59,7 @@ export default function App() {
           format24h
           events={events.eventParts}
           width={width}
-          initDate={'2020-03-23'}
+          initDate={'2020-05-25'}
           scrollToFirst
           size={5}
           start={7}

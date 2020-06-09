@@ -1,20 +1,13 @@
 {
   "expo": {
-    "name": "cronos",
+    "name": "Cronos",
     "slug": "cronos",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
+    "icon":  "./assets/icon2.png",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -23,6 +16,23 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.lucca.cronos",
+      "versionCode": 1,
+      "splash": {
+        "mdpi": "./assets/splash/splash-mdpi/splash.png",
+        "hdpi": "./assets/splash/splash-hdpi/splash.png",
+        "xhdpi": "./assets/splash/splash-xhdpi/splash.png",
+        "xxhdpi": "./assets/splash/splash-xxhdpi/splash.png",
+        "xxxhdpi": "./assets/splash/splash-xxxhdpi/splash.png",
+        "resizeMode": "cover"
+      },
+      "icon":  "./assets/icon2.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon2f.png",
+        "backgroundImage": "./assets/icon2b.png"
+      }
     }
   }
 }
