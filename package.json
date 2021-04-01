@@ -10,17 +10,17 @@
   "dependencies": {
     "@use-expo/font": "^2.0.0",
     "axios": "^0.21.1",
-    "expo": "~37.0.3",
+    "expo": "^37.0.12",
     "logkitty": "^0.7.1",
-    "mem": "^6.1.0",
+    "mem": "^6.1.1",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
     "react-native-events-calendar": "^1.0.8",
-    "react-native-web": "~0.11.7"
+    "react-native-web": "^0.15.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
+    "@babel/core": "^7.13.14",
     "@bam.tech/react-native-make": "^3.0.0",
     "babel-preset-expo": "~8.1.0"
   },
